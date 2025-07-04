@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.nodelist {
+  display: flex;
+}
+.nodelist > div {
+  margin: 8px;
+  padding: 6px 0px 6px 16px;
+  border: 0 solid;
+  border-radius: 12px;
+  background-color: darkslategray;
+  width: 100px;
+}
+.nodelist > div > p {
+  margin-bottom: 0;
+}
+
+.prefill {
+  display: flex;
+  flex-direction: column;
+}
+.prefill > input, .email-wrapper > input {
+  margin-bottom: 4px;
+  padding-left: 8px;
+  border: none;
+  border-radius: 12px;
+  width: 200px;
+  height: 30px;
+}
+.clear-email, #close-modal {
+  margin-left: 2px;
+  padding: 0px 16px;
+  border: none;
+  border-radius: 12px;
+  min-width: 30px;
+  height: 30px;
+}
+#close-modal {
+  margin: 12px 0px;
+}

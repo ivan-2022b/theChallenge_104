@@ -15,4 +15,4 @@ Extensibility:
 
 This application dynamically renders objects inside the "nodes" object and can accomodate any valid combination of DAG target/source relationships. In its current state, it does not check if the DAG is actually a DAG so if there is a loop, "getAncestors" function will run infintely.
 
-Here is the link to me coding a bit of it: [YouTube] (https://youtu.be/tynk_xt0VbY)
+Here is the link to me coding a bit of it: [YouTube](https://www.youtube.com/watch?v=EKUMDwnbGZI)
